@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hanado</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+      <script src="https://unpkg.com/akar-icons-fonts"></script>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+        * {
+          font-family: 'Poppins', sans-serif;
+        }
+      </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container py-2">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./assets/images/logo.png"
+              alt="Hanado"
+              style="height: 38px; padding: 0 3rem;"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Delivery</a>
+              </li>
+            </ul>
+            <form
+              class="d-flex align-item-center position-relative"
+              role="search"
+            >
+              <input
+                class="form-control me-2 rounded-pill ps-5"
+                type="search"
+                placeholder="Capuccino"
+                aria-label="Capuccino"
+              />
+              <i class="ai-search fs-3 position-absolute start-0 ps-3"></i>
+              <i class="ai-cart fs-3"></i>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+   
+    <section id="header-section">
+      <!-- Background kopi -->
+      <div class="z-n1 position-absolute top-0 w-100 " style="background-color: blanchedalmond; height: 750px;">
+        <img class="position-absolute top-0 end-0"  style="width: 30%;" src="assets/Images/bg-hero.png" alt="bg-hero">
+        <img class="position-absolute bottom-0 mb-2"  style="width: 39%;" src="assets/Images/bg-hero-2.png" alt="bg-hero">
+      </div>
+
+      <!-- Container Header -->
+      <div class="container" style="padding: 0 4rem;">
+        <div class="row align-items-center justify-content-between mt-5">
+          <div class="col-md-8 order-md-1">
+            <h1 class="header-title fw-semibold">Enjoy your <span style="color: #ff9901;">coffe</span> <br>before your activity</h1>
+            <p class="text-secondary mt-4">Boost your productivity and build your <br>mood with a glass of coffe in the morning</p>
+              <div class="btn-group mt-3">
+                <button class="bg-danger border-0 d-flex justify-content-between py-2 rounded-pill fw-semibold py-0 text-white pe-5 ps-4">
+                  <span></span>
+                  Order now
+                </button>
+                <button type="button" class="btn btn-link text-warning fw-semibold text-decoration-none ps-5">More info</button>
+              </div>
+          </div>
+          <div class="image-header col-md-4 order-md-2">
+            <div class="circle position-absolute" style="z-index: -1;"></div>
+            <img src="assets/Images/coffe-glass.png" class="img-body d-flex position-relative" alt="" style="width: 280px; height: auto;">
+        </div>
+      </div>
+    </section>
+
+    <!-- Container section card -->
+  <section id="popular-product" class="position-relative" style="height: 260px; padding: 0 3rem; top: 78px;">
+      <h2 class="fw-semibold fs-3 py-3" style="padding: 0 3.3rem;">Popular 
+        <span class="border-bottom border-3" style="--bs-border-color: #fe983a;">Now</span>
+      </h2>
+    <div class="position-relative p-4">
+
+      <!-- Container Background -->
+      <div class="position-absolute"
+        style="width: 96%; height: 300px;  border-radius: 40px; background-color: #f7d7a9; top: 100px;">
+      </div>
+        
+      <!-- Content -->
+      <div class="px-5 d-flex flex-sm-column flex-lg-row gap-4 align-items-center justify-content-between">
+
+        <!-- Card 1 -->
+        <article class="card shadow p-3 border-5"
+        style="width:18rem; border-width: 20px; --bs-card-border-color: rgba(255, 227, 187, 0.2); backdrop-filter: blur(24px);">
+
+          <!-- Card Image -->
+          <div class="position-relative d-block mt-1">
+            <!-- Rating -->
+            <div class="position-absolute d-flex align-items-center gap-1 bg-light rounded-pill"
+              style="top: 7px; left: 7px; padding: 0.2rem 0.8rem;">
+              <span class="fw-bold" style="font-size: 14px;">4.8</span>
+              <img src="assets/icons/gold-star.svg" alt="Stars" style="width: 16px; height: 16px;">
+            </div>
+
+            <img src="assets/Images/product-1.png" alt="Product's 1 Picture"
+              class="w-100 rounded-3 object-fit-cover">
+          </div>
+
+          <!-- Card Body -->
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+              <h5 class="fw-semibold">Vanilla latte</h5>
+              <h5 class="fw-bold">21 K</h5>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <div class="d-flex gap-3 align-items-center">
+                <span class="btn btn-outline-warning border-2 fw-semibold"
+                  style="padding: 0.2rem 0.8rem; font-size: 14px; --bs-btn-border-color: #ffd89f; --bs-btn-color: #ffd89f; --bs-btn-hover-bg: transparent; --bs-btn-hover-border-color: #ff902a; --bs-btn-hover-color: #ff902a;">Hot</span>
+                <span class="btn btn-outline-warning border-2 fw-semibold"
+                  style="padding: 0.2rem 0.8rem; font-size: 14px; --bs-btn-border-color: #ffd89f; --bs-btn-color: #ffd89f; --bs-btn-hover-bg: transparent; --bs-btn-hover-border-color: #ff902a; --bs-btn-hover-color: #ff902a;">Cold</span>
+              </div>
+              <button class="btn btn-warning rounded-circle border-0 d-flex align-items-center justify-content-center"
+              style="--bs-btn-bg: #ff902a; --bs-btn-hover-bg: #fcaa5d; height: 40px !important; width: 40px !important ;">
+              <i class="ai-cart text-light"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card shadow p-2 border-5"
+        style="width: 18rem; border-width: 20px; --bs-card-border-color: rgba(255, 227, 187, 0.2); backdrop-filter: blur(24px);">
+
+          <!-- Card Image -->
+          <div class="position-relative d-block mt-2">
+            <!-- Rating -->
+            <div class="position-absolute d-flex align-items-center gap-1 bg-light rounded-pill"
+              style="top: 7px; left: 7px; padding: 0.2rem 0.8rem;">
+              <span class="fw-bold" style="font-size: 14px;">4.8</span>
+              <img src="assets/icons/gold-star.svg" alt="Stars" style="width: 16px; height: 16px;">
+            </div>
+
+            <img src="assets/Images/product-2.png" alt="Product's 1 Picture"
+              class="w-100 rounded-3 object-fit-cover">
+          </div>
+
+          <!-- Card Body -->
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+              <h5 class="fw-semibold">Espresso</h5>
+              <h5 class="fw-bold">12 K</h5>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <div class="d-flex gap-3 align-items-center">
+                <span class="btn btn-outline-warning border-2 fw-semibold"
+                  style="padding: 0.2rem 0.8rem; font-size: 14px; --bs-btn-border-color: #ffd89f; --bs-btn-color: #ffd89f; --bs-btn-hover-bg: transparent; --bs-btn-hover-border-color: #ff902a; --bs-btn-hover-color: #ff902a;">Hot</span>
+                <span class="btn btn-outline-warning border-2 fw-semibold"
+                  style="padding: 0.2rem 0.8rem; font-size: 14px; --bs-btn-border-color: #ffd89f; --bs-btn-color: #ffd89f; --bs-btn-hover-bg: transparent; --bs-btn-hover-border-color: #ff902a; --bs-btn-hover-color: #ff902a;">Cold</span>
+              </div>
+              <button class="btn btn-warning rounded-circle border-0 d-flex align-items-center justify-content-center"
+              style="--bs-btn-bg: #ff902a; --bs-btn-hover-bg: #fcaa5d; height: 40px !important; width: 40px !important ;">
+              <i class="ai-cart text-light"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card shadow p-2 border-5"
+        style="width: 18rem; border-width: 20px; --bs-card-border-color: rgba(255, 227, 187, 0.2); backdrop-filter: blur(24px);">
+        
+          <!-- Card Image -->
+          <div class="position-relative d-block mt-2">
+            <!-- Rating -->
+            <div class="position-absolute d-flex align-items-center gap-1 bg-light rounded-pill"
+              style="top: 7px; left: 7px; padding: 0.2rem 0.8rem;">
+              <span class="fw-bold" style="font-size: 14px;">4.8</span>
+              <img src="assets/icons/gold-star.svg" alt="Stars" style="width: 16px; height: 16px;">
+            </div>
+
+            <img src="assets/Images/product-3.png" alt="Product's 1 Picture"
+              class="w-100 rounded-3 object-fit-cover">
+          </div>
+
+          <!-- Card Body -->
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+              <h5 class="fw-semibold">Hazelnut latte</h5>
+              <h5 class="fw-bold">23 K</h5>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <div class="d-flex gap-3 align-items-center">
+                <span class="btn btn-outline-warning border-2 fw-semibold"
+                  style="padding: 0.2rem 0.8rem; font-size: 14px; --bs-btn-border-color: #ffd89f; --bs-btn-color: #ffd89f; --bs-btn-hover-bg: transparent; --bs-btn-hover-border-color: #ff902a; --bs-btn-hover-color: #ff902a;">Hot</span>
+                <span class="btn btn-outline-warning border-2 fw-semibold"
+                  style="padding: 0.2rem 0.8rem; font-size: 14px; --bs-btn-border-color: #ffd89f; --bs-btn-color: #ffd89f; --bs-btn-hover-bg: transparent; --bs-btn-hover-border-color: #ff902a; --bs-btn-hover-color: #ff902a;">Cold</span>
+              </div>
+              <button class="btn btn-warning rounded-circle border-0 d-flex align-items-center justify-content-center"
+              style="--bs-btn-bg: #ff902a; --bs-btn-hover-bg: #fcaa5d; height: 40px !important; width: 40px !important ;">
+              <i class="ai-cart text-light"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+  </section>
+
+  <!-- Service Section -->
+  <section id="service" style="padding: 0 7rem; margin: 400px 0 50px 0;">
+    <h2 class="fw-semibold fs-3 py-3">
+      How to use delivery
+      <span class="border-bottom border-3" style="--bs-border-color: #fe983a;">service</span>
+    </h2>
+
+    <div class="d-flex align-items-center justify-content-between mt-5 px-5">
+      <article class="d-flex flex-column align-items-center justify-content-center">
+        <img src="assets/Images/service-1.png" alt="Service 1" width="120">
+        <h3 class="fw-semibold mt-3 fs-5">Choose Your Coffee</h3>
+        <p>There are 20+ coffee for you</p>
+      </article>
+      <article class="d-flex flex-column align-items-center justify-content-center">
+        <img src="assets/Images/service-2.png" alt="Service 1" width="120">
+        <h3 class="fw-semibold mt-3 fs-5">We Delivery It to You</h3>
+        <p>Choose delivery service</p>
+      </article>
+      <article class="d-flex flex-column align-items-center justify-content-center">
+        <img src="assets/Images/service-3.png" alt="Service 1" width="120">
+        <h3 class="fw-semibold mt-3 fs-5">Enjoy Your Coffee</h3>
+        <p>There are 20+ coffee for you</p>
+      </article>
+    </div>
+  </section>
+   
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
